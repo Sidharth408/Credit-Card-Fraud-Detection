@@ -13,8 +13,6 @@ Installation
 To run this project, you'll need to install the following Python libraries:
 
 bash
-Copy
-Edit
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn
 Project Overview
 This project uses four different machine learning models to predict fraudulent transactions in credit card data:
@@ -33,6 +31,8 @@ V1 to V28: Anonymized features representing different attributes of the transact
 Amount: The monetary amount of the transaction
 Class: The target variable indicating whether the transaction is fraudulent (1) or not (0)
 For more information about the dataset, you can refer to the source.
+
+source : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 Modeling
 Data Preprocessing:
